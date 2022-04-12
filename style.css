@@ -1,0 +1,61 @@
+td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+}
+
+.food {
+    background-color: orange;
+}
+
+.snakeBody {
+    background-color: lightslategrey;
+}
+
+#message {
+    color: red;
+    font-size: 24px;
+}
+
+body {
+    background: black;
+}
+
+button {
+    width: 150px;
+    padding: 15px;
+    margin: 10px;
+    color: white;
+    background: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
+
+button:active {
+    background-color: yellowgreen;
+    color: black;
+}
+
+#game {
+    border-collapse: collapse;
+    margin: 38px 0;
+    min-height: 484px;
+}
+
+.score-text {
+    margin-right: 12px;
+    float: left;
+}
+
+.score-text,
+.score-count {
+    color: white;
+    font-size: 22px;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
